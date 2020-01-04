@@ -1,0 +1,7 @@
+﻿[center][img]http://icons.iconarchive.com/icons/dakirby309/simply-styled/128/YouTube-icon.png[/img]
+[size=15][url=http://www.youtube.com/channel/{ID}]{NAME}[/url]
+{STATUS}[/size]
+
+[size=13]Subskrypcji: [b]{SUBSCRIPTIONS}[/b]
+Wyświetleń: [b]{VIEWS}[/b]
+Filmów: [b]{VIDEOS}[/b][/size]

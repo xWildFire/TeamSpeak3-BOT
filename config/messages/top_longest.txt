@@ -1,0 +1,5 @@
+﻿[center][size=14][color=#4779E3][b]TOP {MAX}
+Najdłuższego Połączenia[/b][/color][/size][/center]
+
+<player>{NR}. [URL=client://0/{UID}]{NICK}[/URL] - [b]{TIME}[/b]
+</player>

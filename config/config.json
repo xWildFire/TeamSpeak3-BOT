@@ -1,0 +1,301 @@
+{
+	"1": {
+		"connection": {
+			"server_ip": "127.0.0.1",
+			"server_port": 9987,
+			"query_login": "BOT-1",
+			"query_password": "password",
+			"query_port": 10011,
+			"bot_name": "Administrator",
+			"bot_channel": 5668
+		},
+		"settings": {
+			"path": "_Administrator",
+			"commands": false,
+			"idle": 1
+		},
+		"disabled": [
+			"group_limit",
+			"mobile_group",
+			"welcome",
+			"no_vpn",
+			"guestinfo",
+			"advertise"
+		],
+		"functions": {
+			"default_channel": {
+				"aid": 31,
+				"groups": {
+					"156": 3010,
+					"161": 3918
+				},
+				"default_channel": 2163
+			},
+			"welcome": {
+				"linebyline": true
+			},
+			"temp_check": {
+				"execute": 1
+			},
+			"ban_mk": {
+				"execute": 5
+			},
+			"advertise": {
+				"messages": [
+					"[i]Zapraszamy na[/i] [url=http://youtubersi.pl][color=red][b]YouTubersi.pl[/b][/color][/url]",
+					"[i]Zapraszamy na[/i] [url=http://youtubes.pl][color=red][b]YouTubes.pl[/b][/color][/url]",
+					"[i]Zapraszamy na[/i] [url=http://profile-statistics.com][color=red][b]Profile-Statistics.com[/b][/color][/url]"
+				],
+				"execute": 43200
+			},
+			"public_channel": {
+				"zone": {
+					"2176": 0,
+					"2182": 2,
+					"2198": 3,
+					"2204": 4,
+					"2210": 5
+				},
+				"execute": 5
+			},
+			"channel_give": {
+				"cid": 2152,
+				"pid": 2236,
+				"aid": 31,
+				"sub_channels": 1,
+				"execute": 30
+			},
+			"channel_poke": {
+				"channels": {
+					"2151": {
+						"poke": false,
+						"groups": "125,117,103,92"
+					}
+				},
+				"cooldown": 150,
+				"execute": 2
+			},
+			"channel_group": {
+				"channels": [],
+				"execute": 20
+			},
+			"group_limit": {
+				"groups": [],
+				"execute": 60
+			},
+			"channel_checker": {
+				"pid": 2236,
+				"execute": 120
+			},
+			"mobile_group": {
+				"android": 75,
+				"ios": 75,
+				"execute": 60
+			},
+			"register": {
+				"time": 120,
+				"group": 126,
+				"ignored": "291,293,125,117,103,92,167,289",
+				"execute": 60
+			},
+			"nick_protect": {
+				"words": "huj|cipa|chuj|jebać|jebac|kurwa|pizda|szmata|pierdol|pizda|shit|fuck|dziwka|kutas|pizdy|kurwy|szmaty|sij|cwel|spierdalaj|wypierdalaj|hitler|skurwiel|suka|bitch|ceo|root|query|vroot|owner|server|serwer|netspeak|admin",
+				"groups": "CEO|NA|JSA|HSA|DJ|SA|TSA|SSA|HA|VROOT|ROOT|ISA|VIP|QUERY",
+				"execute": 15
+			},
+			"no_record": {
+				"global": true,
+				"channels": [],
+				"groups": "125,117,103,92",
+				"execute": 5
+			},
+			"no_vpn": {
+				"ignored": "144,125,117,103,92,123,143",
+				"execute": 30
+			},
+			"afk_checker": {
+				"channel": 259,
+				"ignored": "125,117,103,92,123,102,100,138,143",
+				"time": 30,
+				"execute": 1
+			}
+		}
+	},
+	"2": {
+		"connection": {
+			"server_ip": "127.0.0.1",
+			"server_port": 9987,
+			"query_login": "BOT-2",
+			"query_password": "password",
+			"query_port": 10011,
+			"bot_name": "Updater",
+			"bot_channel": 5668
+		},
+		"settings": {
+			"path": "_Updater",
+			"commands": false,
+			"idle": 10
+		},
+		"mysql": {
+			"host": "127.0.0.1",
+			"user": "root",
+			"pass": "password",
+			"database": "database"
+		},
+		"disabled": [
+			"host",
+			"data",
+			"twitch",
+			"youtube",
+			"top"
+		],
+		"functions": {
+			"host": {
+				"modal": true,
+				"name": "TS.WILDFIRE.PL [ONLINE @ {ONLINE}]",
+				"execute": 15
+			},
+			"group_online": {
+				"groups": {
+					"125,117,103,92": {
+						"cid": 2155,
+						"name": "[rspacer]♦ Aktywnych adminów: {ONLINE}"
+					}
+				},
+				"execute": 30
+			},
+			"admin_list": {
+				"groups": "125,117,103,92",
+				"cid": 2083,
+				"execute": 300
+			},
+			"twitch": {
+				"streamers": [],
+				"offline": "[cspacer]TW | {NAME}",
+				"online": "[cspacer]TW | {NAME} (LIVE: {VIEWERS})",
+				"execute": 90
+			},
+			"youtube": {
+				"youtubers": {
+					"UC86tL78IZOwUanyU1qeLSKg": 2737
+				},
+				"offline": "[cspacer]YT | {NAME}",
+				"online": "[cspacer]YT | {NAME} (LIVE: {VIEWERS})",
+				"execute": 90
+			},
+			"data": {
+				"admins": "125,117,103,92",
+				"cache_file": "cache.tmp",
+				"data_file": "data.txt",
+				"execute": 45
+			},
+			"top": {
+				"connections": {
+					"cid": 2148,
+					"count": 30
+				},
+				"time": {
+					"cid": 2149,
+					"count": 30
+				},
+				"longest": {
+					"cid": 2150,
+					"count": 30
+				},
+				"execute": 300
+			},
+			"multi": {
+				"online": {
+					"enabled": false,
+					"cid": 0,
+					"name": "{ONLINE}/{MAX}"
+				},
+				"hour": {
+					"enabled": false,
+					"cid": 0,
+					"name": "{TIME}"
+				},
+				"free_channels": {
+					"enabled": true,
+					"cid": 2156,
+					"pid": 2236,
+					"name": "[spacer]♦ Wolnych kanałów: {COUNT}"
+				},
+				"record": {
+					"enabled": true,
+					"cid": 2157,
+					"name": "[spacer]♦ Rekord online: {RECORD}"
+				},
+				"execute": 45
+			},
+			"logger": {
+				"execute": 10
+			}
+		}
+	},
+	"3": {
+		"connection": {
+			"server_ip": "127.0.0.1",
+			"server_port": 9987,
+			"query_login": "BOT-3",
+			"query_password": "password",
+			"query_port": 10011,
+			"bot_name": "Commander",
+			"bot_channel": 5668
+		},
+		"settings": {
+			"path": "_Commander",
+			"commands": true,
+			"idle": 1
+		},
+		"disabled": [],
+		"functions": {
+			"reload": {
+				"access": "291,125"
+			},
+			"bot": {
+				"access": "291,125"
+			},
+			"update": {
+				"access": "291,125"
+			},
+			"config": {
+				"access": "291,125"
+			},
+			"memory": {
+				"access": "291,125"
+			},
+			"swap": {
+				"access": "291,125,117"
+			},
+			"pokeall": {
+				"access": "291,125,117"
+			},
+			"msgall": {
+				"access": "291,125,117"
+			},
+			"move": {
+				"access": "291,125,117"
+			},
+			"addchannels": {
+				"pid": 2236,
+				"max": 30,
+				"access": "291,125,117"
+			},
+			"clear": {
+				"access": "291,125,117,103"
+			},
+			"guild": {
+				"after": 2122,
+				"sub_channels": 5,
+				"access": "291,125,117,103"
+			},
+			"channel": {
+				"pid": 2236,
+				"aid": 31,
+				"sub_channels": 1,
+				"access": "291,125,117,103"
+			}
+		}
+	}
+}

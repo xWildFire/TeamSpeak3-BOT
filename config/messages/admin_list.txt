@@ -1,0 +1,12 @@
+[center][size=14][color=#4779E3][b]Lista
+Administracji[/b][/color][/size][/center]
+
+[size=10]<group>[size=13][{NAME}][/size]
+Adminów: {COUNT}
+
+{USERS}</group>[/size]
+
+<online>• [url=client://0/{UID}][b][color=darkgreen]{NAME}[/color][/b][/url] aktywny [b]{TIME}[/b] na kanale [url=channelid://{CID}][b]{CNAME}[/b][/url]
+</online>
+<offline>• [url=client://0/{UID}][b][color=darkred]{NAME}[/color][/b][/url] nieaktywny [b]{TIME}[/b]
+</offline>

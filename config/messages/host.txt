@@ -1,0 +1,3 @@
+Witaj na [b]{NAME}[/b]
+Aktualnie zalogowanych jest [b]{ONLINE}/{MAX}[/b] użytkowników online
+Zyczmy przyjemnych rozmów!

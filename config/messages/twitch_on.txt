@@ -1,0 +1,10 @@
+﻿[center][img]https://cdn1.iconfinder.com/data/icons/simple-icons/128/twitch-128-black.png[/img]
+[size=15][color=green]ONLINE[/color]
+[url=http://twitch.tv/{NAME}]{NAME}[/url][/size]
+
+[size=13]Oglądających: [b]{VIEWERS}[/b]
+Aktualnie gra w [b]{GAME}[/b]
+[b]{STATUS}[/b]
+
+Obserwujących: [b]{FOLLOWERS}[/b]
+Wyświetleń kanału: [b]{VIEWS}[/b][/size][/center]

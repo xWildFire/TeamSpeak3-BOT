@@ -1,0 +1,9 @@
+Witaj {NICK} na {SERVER_NAME},
+ 
+            -----Informacje serwerowe-------
+Aktualnie jest {ONLINE}/{MAX} uzytkownikow online
+ 
+             ------Informacje o Tobie-------
+Twoje pierwsze polaczenie z serwerem: {CLIENT_FIRST_CONNECTED}
+Twoje ostatnie polaczenie z serwerem: {CLIENT_LAST_CONNECTED}
+Twoja ilosc polaczen z serwerem: {CONNECTIONS}

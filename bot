@@ -1,0 +1,24 @@
+#!/bin/bash
+if [[ "$1" == "stop" ]]; then
+	for session in $(screen -ls | grep -o '[0-9]*\.wBOT')
+	do
+		screen -S "${session}" -X quit;
+	done
+elif [[ "$1" == "restart" ]]; then
+	for session in $(screen -ls | grep -o '[0-9]*\.wBOT')
+	do
+		screen -S "${session}" -X quit;
+	done
+	screen -AdmS wBOT php bot.php
+elif [[ "$1" == "show" ]]; then
+	screen -r wBOT
+elif [[ "$1" == "start" ]]; then
+	if [[ $(screen -ls | grep -o '[0-9]*\.wBOT') ]]; then
+		echo -e "BOT is already running."
+		echo -e "Use: ./bot stop"
+	else
+		screen -AdmS wBOT php bot.php
+	fi
+else
+	echo -e "Usage: ./bot <start/stop/restart/show>"
+fi

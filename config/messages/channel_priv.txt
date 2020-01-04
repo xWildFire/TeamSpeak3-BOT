@@ -1,0 +1,5 @@
+[center][size=15][color=#4779E3]Kanał Prywatny - Nr. [b]{NR}[/b][/color][/size]
+[hr][size=15][color=green]Właściciel kanału[/color][/size]
+[size=13][b]{USER}[/b][/size]
+[size=15][color=green]Data założenia[/color][/size]
+[size=13][b]{DATE}r.[/b][/size][/center][hr]

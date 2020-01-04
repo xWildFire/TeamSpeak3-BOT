@@ -1,0 +1,3 @@
+﻿[center][img]https://cdn1.iconfinder.com/data/icons/simple-icons/128/twitch-128-black.png[/img]
+[size=15][color=red]OFFLINE[/color]
+[url=http://twitch.tv/{NAME}]{NAME}[/url][/size][/center]
